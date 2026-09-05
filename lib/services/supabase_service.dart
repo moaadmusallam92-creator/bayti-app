@@ -1,8 +1,8 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../models/property.dart';
 
-const String supabaseUrl = 'https://YOUR-PROJECT.supabase.co';
-const String supabaseAnonKey = 'YOUR-ANON-KEY';
+const String supabaseUrl = 'iibzmaaspmctuxfeekvx.supabase.co';
+const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlpYnptYWFzcG1jdHV4ZmVla3Z4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1NjY2NjgsImV4cCI6MjEwNDE0MjY2OH0.XrIfo0yNc_bFjxvUw7Nqx0wloWq8nrja-amr87yjA-Y';
 
 class SupabaseService {
   static final SupabaseClient client = Supabase.instance.client;
